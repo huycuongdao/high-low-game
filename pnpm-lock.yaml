@@ -6,7 +6,7 @@ specifiers:
   '@emotion/styled': 11.6.0
   '@types/react': 17.0.20
   '@types/react-dom': 17.0.9
-  '@xstate/react': 2.0.1
+  '@xstate/react': 3.0.0
   framer-motion: 5.6.0
   react: 17.0.2
   react-dom: 17.0.2
@@ -14,20 +14,20 @@ specifiers:
   react-icons: 4.3.1
   react-scripts: 5.0.1
   typescript: 4.4.2
-  xstate: 4.30.2
+  xstate: 4.32.0
 
 dependencies:
   '@chakra-ui/react': 1.7.4_bzd55egopbqmv2qedwuqzj24dm
   '@emotion/react': 11.7.1_nzcm72thf6ce7y3fqjgojgibxu
   '@emotion/styled': 11.6.0_egrspyz4cadggbmpt773rgbqgu
-  '@xstate/react': 2.0.1_5rb3cb3d3mdpl6oks6pcx2nwpi
+  '@xstate/react': 3.0.0_dmlhpkclo6s6ecccn5oklkxtgm
   framer-motion: 5.6.0_sfoxds7t5ydpegc3knd667wn6m
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
   react-hook-form: 7.24.0_react@17.0.2
   react-icons: 4.3.1_react@17.0.2
   react-scripts: 5.0.1_7rlklb6ibc4z5g6us7nfvkq3iq
-  xstate: 4.30.2
+  xstate: 4.32.0
 
 devDependencies:
   '@types/react': 17.0.20
@@ -3557,12 +3557,12 @@ packages:
       '@xtuc/long': 4.2.2
     dev: false
 
-  /@xstate/react/2.0.1_5rb3cb3d3mdpl6oks6pcx2nwpi:
-    resolution: {integrity: sha512-sT3hxyzNBw+bm7uT3BP+uXzN0MnRqiaj/U9Yl4OYaMAUJXWsRvSA/ipL7EDf0gVLRGrRhJTCsC0cjWaduAAqnw==}
+  /@xstate/react/3.0.0_dmlhpkclo6s6ecccn5oklkxtgm:
+    resolution: {integrity: sha512-KHSCfwtb8gZ7QH2luihvmKYI+0lcdHQOmGNRUxUEs4zVgaJCyd8csCEmwPsudpliLdUmyxX2pzUBojFkINpotw==}
     peerDependencies:
-      '@xstate/fsm': ^1.6.5
-      react: ^16.8.0 || ^17.0.0
-      xstate: ^4.30.3
+      '@xstate/fsm': ^2.0.0
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      xstate: ^4.31.0
     peerDependenciesMeta:
       '@xstate/fsm':
         optional: true
@@ -3571,8 +3571,8 @@ packages:
     dependencies:
       react: 17.0.2
       use-isomorphic-layout-effect: 1.1.2_nzcm72thf6ce7y3fqjgojgibxu
-      use-subscription: 1.7.0_react@17.0.2
-      xstate: 4.30.2
+      use-sync-external-store: 1.1.0_react@17.0.2
+      xstate: 4.32.0
     transitivePeerDependencies:
       - '@types/react'
     dev: false
@@ -10261,15 +10261,6 @@ packages:
       tslib: 2.4.0
     dev: false
 
-  /use-subscription/1.7.0_react@17.0.2:
-    resolution: {integrity: sha512-87x6MjiIVE/BWqtxfiRvM6jfvGudN+UeVOnWi7qKYp2c0YJn5+Z5Jt0kZw6Tt+8hs7kw/BWo2WBhizJSAZsQJA==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
-    dependencies:
-      react: 17.0.2
-      use-sync-external-store: 1.1.0_react@17.0.2
-    dev: false
-
   /use-sync-external-store/1.1.0_react@17.0.2:
     resolution: {integrity: sha512-SEnieB2FPKEVne66NpXPd1Np4R1lTNKfjuy3XdIoPQKYBAFdzbzSZlSn1KJZUiihQLQC5Znot4SBz1EOTBwQAQ==}
     peerDependencies:
@@ -10802,8 +10793,8 @@ packages:
     resolution: {integrity: sha512-JZnDKK8B0RCDw84FNdDAIpZK+JuJw+s7Lz8nksI7SIuU3UXJJslUthsi+uWBUYOwPFwW7W7PRLRfUKpxjtjFCw==}
     dev: false
 
-  /xstate/4.30.2:
-    resolution: {integrity: sha512-nstZNgz6bzog0wut7jYFmb9ZUZmcyYszkv7f//TNu2CnKCROezOduCTGgpjWrf0W8JnAXV4wEgw5dsC9kVqMFQ==}
+  /xstate/4.32.0:
+    resolution: {integrity: sha512-62gETqwnw4pBRe+tVWMt8hLgWEU8lq2qO8VN5PWmTELceRVt3I1bu1cwdraVRHUn4Bb2lnhNzn1A73oShuC+8g==}
     dev: false
 
   /xtend/4.0.2:
